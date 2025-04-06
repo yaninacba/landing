@@ -31,10 +31,10 @@ exports.handler = async function(event, context) {
         email
       },
       back_urls: {
-        success: 'https://tusitio.com/success',
-        failure: 'https://tusitio.com/failure',
-        pending: 'https://tusitio.com/pending'
-      },
+        success: 'https://soportetomo1.netlify.app/',
+        failure: 'https://soportetomo1.netlify.app/',
+        pending: 'https://soportetomo1.netlify.app/'
+      }
       auto_return: 'approved'
     };
 
@@ -59,5 +59,3 @@ exports.handler = async function(event, context) {
 
 
 
-
-TEST-8943941617833117-040501-563a8e8bdd4fd568ed87ac65c4b3a0bd-73616378
