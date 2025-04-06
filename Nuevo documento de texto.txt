@@ -1,0 +1,10 @@
+Datos
+Editar
+User ID
+73616378
+Número de aplicación
+8943941617833117
+Integración con
+CheckoutAPI
+Modelo de integración
+Marketplace
