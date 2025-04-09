@@ -1,0 +1,13 @@
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.production
+
+# Dependencias y caché
+node_modules/
+.npm
+.cache
+
+# Netlify
+.netlify
