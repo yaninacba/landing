@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
+    console.log('Scripts cargados en la página:');
+    document.querySelectorAll('script').forEach(script => {
+      console.log(script.src || 'Script interno');
+    });
+  
     // 1. Debugging inicial (verifica que todo cargó)
     console.log("DOM cargado. Buscando botón...");
     
