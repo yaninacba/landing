@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Mi Producto - Mercado Pago</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- SDK de Mercado Pago -->
+    <title>Landing con Mercado Pago</title>
+    <!-- SDK de Mercado Pago debe estar en el head -->
     <script src="https://sdk.mercadopago.com/js/v2"></script>
 </head>
 <body>
     <div class="producto">
         <h1>Mi Producto Increíble</h1>
         <p>¡Solo $100!</p>
-        <button id="checkout-btn">Pagar con Mercado Pago</button>
+        <button id="checkout-btn">Pagar con Mercado Pago</button> <!-- ✅ ID correcto -->
     </div>
+
+    <!-- Tu script personalizado DEBE ir al final del body -->
     <script src="assets/js/mercadopago.js"></script>
 </body>
 </html>
