@@ -1,3 +1,12 @@
+
+// Bloquea errores de scripts externos
+window.addEventListener('error', (event) => {
+    if (event.filename.includes('share-modal.js')) {
+      event.preventDefault();
+      console.warn('Error en script externo bloqueado:', event.message);
+    }
+  }, true);
+
 document.addEventListener("DOMContentLoaded", () => {
     console.log('Scripts cargados en la página:');
     document.querySelectorAll('script').forEach(script => {
