@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // 3. Selección del botón con validación
-    const checkoutBtn = document.getElementById("checkout-btn");
+    const checkoutBtn = document.getElementById("pagar");
     console.log("Botón encontrado:", checkoutBtn); // Debe mostrar el elemento en consola
 
     if (!checkoutBtn) {
